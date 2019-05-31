@@ -106,8 +106,8 @@
       }
     },
     "react-ui": {
-      "root": "libs/react-ui",
-      "sourceRoot": "libs/react-ui/src",
+      "root": "libs/common/react-ui",
+      "sourceRoot": "libs/common/react-ui/src",
       "projectType": "library",
       "schematics": {},
       "architect": {
@@ -115,8 +115,8 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "libs/react-ui/tsconfig.lib.json",
-              "libs/react-ui/tsconfig.spec.json"
+              "libs/common/react-ui/tsconfig.lib.json",
+              "libs/common/react-ui/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
@@ -124,8 +124,8 @@
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "libs/react-ui/jest.config.js",
-            "tsConfig": "libs/react-ui/tsconfig.spec.json"
+            "jestConfig": "libs/common/react-ui/jest.config.js",
+            "tsConfig": "libs/common/react-ui/tsconfig.spec.json"
           }
         }
       }

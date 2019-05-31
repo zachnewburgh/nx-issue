@@ -13,6 +13,9 @@
     },
     "nx-issue-e2e": {
       "tags": []
+    },
+    "react-ui": {
+      "tags": []
     }
   }
 }

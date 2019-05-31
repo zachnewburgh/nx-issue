@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-issue/react-ui": ["libs/common/react-ui/src/index.ts"]
+      "@nx-issue/react-ui": ["libs/common/react-ui/src/index.ts"],
+      "@nx-issue/idea": ["libs/idea/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
